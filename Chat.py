@@ -1,20 +1,3 @@
-"""
-1) Host LLM server:
-```
-source RAG-env/bin/activate
-source /opt/intel/oneapi/setvars.sh
-cd app && export ZES_ENABLE_SYSMAN=1
-python3 -m llama_cpp.server --config_file ./config.json 
-```
-
-2) Start application:
-```
-source RAG-env/bin/activate
-source /opt/intel/oneapi/setvars.sh
-cd app
-streamlit run Chat.py
-```
-"""
 import streamlit as st
 from time import perf_counter
 from loguru import logger
