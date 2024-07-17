@@ -1,0 +1,24 @@
+{
+    "host": "0.0.0.0",
+    "port": 8080,
+    "models": [
+        {
+            "model": "./sqlcoder-7b-2.Q8_0.gguf",
+            "model_alias": "sqlcoder-7b-2",
+            "n_gpu_layers": -1,
+            "offload_kqv": true,
+            "n_threads": 12,
+            "n_batch": 512,
+            "n_ctx": 8192 
+        },
+        {
+            "model": "./Mistral-7B-Instruct-v0.3.Q8_0.gguf",
+            "model_alias": "Mistral-7B-Instruct-v0.3",
+            "n_gpu_layers": -1,
+            "offload_kqv": true,
+            "n_threads": 12,
+            "n_batch": 512,
+            "n_ctx": 8192
+        }
+    ]
+}
