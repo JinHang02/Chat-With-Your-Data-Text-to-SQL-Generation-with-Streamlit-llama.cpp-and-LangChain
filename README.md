@@ -1,4 +1,7 @@
 # Chat With Your Data: Text-to-SQL Generation with `Streamlit`, `llama.cpp`🦙 and `LangChain`🦜🔗 
+## Demo Video
+![Demo Video](https://youtu.be/u1GTnSevnn0)
+
 ## Project Description
 This project is an innovative application of natural language processing (NLP) and machine learning that bridges the gap between human language and database queries. This technology allows users to interact with databases using natural language, without needing to know complex SQL syntax. This project aims to democratize data access, enabling non-technical users to extract valuable insights from databases.
 
