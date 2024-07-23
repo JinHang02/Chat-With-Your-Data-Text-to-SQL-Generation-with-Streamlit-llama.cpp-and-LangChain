@@ -226,6 +226,9 @@ Human-readable response:
 ### Find number of products with regeneration prompt from SQL Assistant:
 ![q3](./images/q3.png)
 
+## LLM Benchmark
+![llm_benchmark](./images/llm_benchmark.png)
+
 ## References
 
 * MaziyarPanahi/sqlcoder-7b-2-GGUF (https://huggingface.co/MaziyarPanahi/sqlcoder-7b-2-GGUF)
