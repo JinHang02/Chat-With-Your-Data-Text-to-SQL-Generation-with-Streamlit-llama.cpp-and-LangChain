@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 1. Install llama.cpp. Browse to [llama-cpp-python](https://github.com/abetlen/llama-cpp-python#openai-compatible-web-server) for installation with hardware acceleration.
 ```bash
-pip install llama-cpp-python[server]==0.2.56
+pip install llama-cpp-python[server]
 ```
 
 2. Setup huggingface-cli to download model.
